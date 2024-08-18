@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { FaHome } from 'react-icons/fa';
 import { MdRealEstateAgent } from 'react-icons/md';
 import { PiDrone } from 'react-icons/pi';
-import VideoBG from '../images/0709(2).mp4';
+import VideoBG from '../images/0709(2)-1.m4v';
 import Navbar2 from '../components/Navbar2';
 import { MdDesignServices } from "react-icons/md";
 import { Link } from 'react-router-dom';
@@ -72,6 +72,37 @@ const Services_page = () => {
             cards.forEach(card => observer.unobserve(card));
         };
     }, []);
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            const parallaxHero = document.querySelector('.parallax-hero');
+            const parallaxWhyChooseUs = document.querySelector('.parallax-why-choose-us');
+
+            if (parallaxHero) {
+                parallaxHero.style.backgroundPositionY = `${scrollTop * 0.5}px`;
+            }
+            if (parallaxWhyChooseUs) {
+                parallaxWhyChooseUs.style.backgroundPositionY = `-${scrollTop * 0.1}px`;
+            }
+
+            // Triggering animations based on scroll position
+            const animatedElements = document.querySelectorAll('.animate-on-scroll');
+            animatedElements.forEach((el) => {
+                if (el.getBoundingClientRect().top < window.innerHeight * 0.85) {
+                    el.classList.add('animate-fade-in');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        // Initial check to trigger animations
+        handleScroll();
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     const handleClick = () => {
         window.open("https://calendly.com/hynek_cholasta/propertyshooting", "_blank", "noopener,noreferrer");
@@ -87,7 +118,7 @@ const Services_page = () => {
             {/* Main content with video background */}
             <div className="relative flex-grow">
                 {/* Background Video */}
-                <div className="relative h-screen max-h-[80vh] hidden md:block">
+                <div className="relative h-screen max-h-[80vh] hidden md:block parallax-hero min-h-[600px]">
                     <video 
                         autoPlay 
                         loop 

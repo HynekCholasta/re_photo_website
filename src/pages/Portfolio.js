@@ -3,10 +3,10 @@ import Navbar2 from '../components/Navbar2.js';
 import jirsovi from '../images/01.jpg';
 import jilkovi from '../images/02.jpg';
  // Importing the new image
-import vcely from '../images/vcely.mp4';
-import VideoBG from '../images/0709(2).mp4';
+import vcely from '../images/Vcely-1.m4v';
+import VideoBG from '../images/0709(2)-1.m4v';
 import cholastovi from '../images/olomouc dum.jpg';
-import jilkovyVideo from '../images/jilkovy video.mp4';
+import jilkovyVideo from '../images/Jilkovy Video-1.m4v';
 import Footer from '../components/Footer.js';
 
 const Portfolio = () => {
