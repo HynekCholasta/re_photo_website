@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/re_photo_website/static/css/main.52e03b2e.css",
-    "main.js": "/re_photo_website/static/js/main.a121f395.js",
+    "main.js": "/re_photo_website/static/js/main.a52a41cc.js",
     "static/js/453.ad6eb26e.chunk.js": "/re_photo_website/static/js/453.ad6eb26e.chunk.js",
     "static/media/Vcely-1.m4v": "/re_photo_website/static/media/Vcely-1.94d623a80e941bef9a71.m4v",
     "static/media/0709(2)-1.m4v": "/re_photo_website/static/media/0709(2)-1.ae5acf7222d46618e653.m4v",
@@ -17,11 +17,11 @@
     "static/media/2.png": "/re_photo_website/static/media/2.79ccb71609ce9bd8722d.png",
     "index.html": "/re_photo_website/index.html",
     "main.52e03b2e.css.map": "/re_photo_website/static/css/main.52e03b2e.css.map",
-    "main.a121f395.js.map": "/re_photo_website/static/js/main.a121f395.js.map",
+    "main.a52a41cc.js.map": "/re_photo_website/static/js/main.a52a41cc.js.map",
     "453.ad6eb26e.chunk.js.map": "/re_photo_website/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52e03b2e.css",
-    "static/js/main.a121f395.js"
+    "static/js/main.a52a41cc.js"
   ]
 }
