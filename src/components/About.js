@@ -19,7 +19,7 @@ const About = () => {
                             In real estate, images can make or break a sale. Our photography not only captures the physical space but also the emotion and story behind each property. Let us help you turn your listings into must-see properties that buyers can't resist.
                         </p>
                         <button className="btn-primary">
-                        <a href='/about' key='/about'>Learn More</a>
+                        <a href='/re_photo_website/#/about' key='/re_photo_website/#/about'>Learn More</a>
         </button>
                     </div>
                 </div>

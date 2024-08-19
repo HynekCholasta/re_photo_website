@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row justify-between items-center">
                     {/* Logo and Description */}
                     <div className="md:w-1/3 text-center md:text-left mb-8 md:mb-0">
-                        <a href="/home" className="text-2xl font-semibold flex items-center space-x-3 justify-center md:justify-start">
+                        <a href="/re_photo_website/#/home" className="text-2xl font-semibold flex items-center space-x-3 justify-center md:justify-start">
                             <img src={logo} alt="Logo" className="w-12 inline-block" />
                             <span className="text-white">HJ Media</span>
                         </a>
@@ -22,10 +22,10 @@ const Footer = () => {
                     <div className="md:w-1/3 mb-8 md:mb-0 text-center">
                         <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
                         <ul className="space-y-2">
-                            <li><a href="/services" className="text-neutralGrey hover:text-white">Services</a></li>
-                            <li><a href="/about" className="text-neutralGrey hover:text-white">About Us</a></li>
-                            <li><a href="/portfolio" className="text-neutralGrey hover:text-white">Portfolio</a></li>
-                            <li><a href="/contact" className="text-neutralGrey hover:text-white">Contact</a></li>
+                            <li><a href="/re_photo_website/#/services" className="text-neutralGrey hover:text-white">Services</a></li>
+                            <li><a href="/re_photo_website/#/about" className="text-neutralGrey hover:text-white">About Us</a></li>
+                            <li><a href="/re_photo_website/#/portfolio" className="text-neutralGrey hover:text-white">Portfolio</a></li>
+                            <li><a href="/re_photo_website/#/contact" className="text-neutralGrey hover:text-white">Contact</a></li>
                         </ul>
                     </div>
 

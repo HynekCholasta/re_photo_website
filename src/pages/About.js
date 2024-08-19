@@ -148,7 +148,7 @@ const About = () => {
                             <p className="text-lg text-neutralGrey max-w-screen-md mx-auto mb-12 animate-fade-in">
                                 Ready to enhance your property listings with professional photography and videography? Contact us today to schedule a session or discuss your project. We’re here to help you make a lasting impression.
                             </p>
-                            <button className="px-8 py-4 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition duration-300 animate-fade-in"><a href='/contact' key='/contact'>Contact Us</a></button>
+                            <button className="px-8 py-4 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition duration-300 animate-fade-in"><a href='/re_photo_website/#/contact' key='/re_photo_website/#/contact'>Contact Us</a></button>
                         </section>
                     </div>
                 </div>

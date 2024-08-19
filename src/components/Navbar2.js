@@ -10,11 +10,11 @@ const Navbar2 = () => {
     };
 
     const navItems = [
-        { link: "Home", path: "/home" },
-        { link: "Service", path: "/services" },
-        { link: "About", path: "/about" },
-        { link: "Contact", path: "/contact" },
-        { link: "Portfolio", path: "/portfolio" },
+        { link: "Home", path: "/re_photo_website/#/home" },
+        { link: "Service", path: "/re_photo_website/#/services" },
+        { link: "About", path: "/re_photo_website/#/about" },
+        { link: "Contact", path: "/re_photo_website/#/contact" },
+        { link: "Portfolio", path: "/re_photo_website/#/portfolio" },
     ];
 
     return (

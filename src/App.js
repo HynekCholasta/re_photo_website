@@ -1,18 +1,16 @@
 import './App.css';
-import Home from './pages/Home.js';
-import Contact from './pages/Contact.js';
-import About from './pages/About.js';
-import Services from './pages/Services.js';
-import NoPage from './pages/NoPage.js';
-import {BrowserRouter, Routes, Route } from 'react-router-dom';
-import Portfolio from './pages/Portfolio.js';
-
-
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import Services from './pages/Services';
+import Portfolio from './pages/Portfolio';
+import NoPage from './pages/NoPage'; // This should be your custom 404 component
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -21,9 +19,9 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/work" element={<Services />} />
-          <Route path="*" element={<NoPage />} />
+          <Route path="*" element={<NoPage />} /> {/* Handles 404s */}
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

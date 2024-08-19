@@ -20,7 +20,7 @@ const Home = () => {
         Professional Real Estate Photography That Sells!
         </p>
         <button className="btn-primary">
-          <a href='/contact' key='/contact'>contact</a>
+          <a href='/re_photo_website/#/contact' key='/re_photo_website/#/contact'>contact</a>
         </button>
       </div>
     </div>
