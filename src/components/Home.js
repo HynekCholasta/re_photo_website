@@ -14,7 +14,7 @@ const Home = () => {
       </div>
       <div className="md:w-1/2">
         <h1 className="text-5xl font-semibold mb-4 text-neutralDGrey md:w-3/4 leading-snug">
-        Capture the Essence of<span className='text-brandPrimary'> Every Property</span>
+        Capture the Essence <span className='text-brandPrimary'> of Every Property</span>
         </h1>
         <p className='text-neutralGrey text-base mb-8'>
         Professional Real Estate Photography That Sells!
