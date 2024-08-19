@@ -1,9 +1,8 @@
 import React from 'react';
 import banner2 from '../images/video editing.png';
 import backgroundImg from '../images/02.jpg'; // Corrected import statement
-import { BsPeople } from "react-icons/bs";
 import { BsSpeedometer, BsEye, BsChatDots } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
+
 
 const About = () => {
     return (

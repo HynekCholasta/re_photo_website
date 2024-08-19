@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import Navbar2 from '../components/Navbar2.js';
 import bgImage from '../images/4.jpg';
 import img7 from '../images/7.jpg';
-import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 
 const About = () => {
